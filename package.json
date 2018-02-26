@@ -1,0 +1,53 @@
+{
+  "name": "tslint-config-blvd",
+  "version": "0.1.0",
+  "description": "A TSLint config that conforms to the blvd TypeScript styleguide.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "react.js",
+    "lib",
+    "rules",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blvdgroup/tslint-config-blvd.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "standard",
+    "standardjs",
+    "typescript",
+    "ts"
+  ],
+  "author": "the blvd group <[email here]>",
+  "contributors": [
+    {
+      "name": "Resi Respati",
+      "url": "https://resir014.xyz",
+      "email": "resir014@blvd.space"
+    }
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^9.4.5",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "typescript": "^2.7.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.9.1"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.11.1",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react": "^3.5.0"
+  }
+}
