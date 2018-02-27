@@ -1,6 +1,6 @@
 # tslint-config-blvd
 
-> A TSLint config that conforms to the blvd TypeScript styleguide.
+> ✨ A TSLint config that conforms to [the blvd TypeScript styleguide](https://github.com/blvdgroup/guidelines/tree/master/languages/typescript).
 
 ## Installation
 
