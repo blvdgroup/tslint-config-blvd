@@ -59,8 +59,6 @@ module.exports = {
   'no-switch-case-fall-through': true,
   'no-trailing-whitespace': true,
   'no-unused-expression': true,
-  'no-unused-variable': [true, 'react'],
-  'no-use-before-declare': true,
   'no-var-keyword': true,
   'no-var-requires': false,
   'object-literal-sort-keys': false,
