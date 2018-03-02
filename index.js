@@ -11,7 +11,5 @@ module.exports = {
     getRuleDirectory('tslint-microsoft-contrib')
   ],
   extends: ['tslint:recommended'],
-  rules: {
-    ...baseRules
-  }
+  rules: baseRules
 }
