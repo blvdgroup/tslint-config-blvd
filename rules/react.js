@@ -38,7 +38,7 @@ module.exports = {
   'jsx-self-close': true,
   // Enforces use of a translation function. Plain string literals are disallowed in JSX when
   // enabled.
-  'jsx-use-translation-function': true,
+  'jsx-use-translation-function': false,
   // Enforces that multiline JSX expressions are wrapped with parentheses.
   // Opening parenthesis must be followed by a newline.
   // Closing parenthesis must be preceded by a newline.
