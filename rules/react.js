@@ -11,7 +11,7 @@ module.exports = {
   'jsx-ban-props': false,
   // When using a boolean attribute in JSX, you can set the attribute value to true or omit the
   // value. This rule will enforce one or the other to keep consistency in your code.
-  'jsx-boolean-value': true,
+  'jsx-boolean-value': false,
   // Requires or bans spaces between curly brace characters in JSX.
   // Rule options: ["always", "never"]
   'jsx-curly-spacing': ['never'],
