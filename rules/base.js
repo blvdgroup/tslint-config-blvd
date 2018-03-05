@@ -18,6 +18,7 @@ module.exports = {
   'curly': false,
   'eofline': true,
   'forin': true,
+  'import-name': true, // 23.6
   'indent': [
     true,
     'spaces'
@@ -58,10 +59,13 @@ module.exports = {
   'no-string-literal': true,
   'no-switch-case-fall-through': true,
   'no-trailing-whitespace': true,
+  'no-unexpected-multiline': true,
   'no-unused-expression': true,
-  'no-var-keyword': true,
+  'no-var-keyword': true, // 2.2
   'no-var-requires': false,
+  'object-literal-shorthand': true, // 3.3, 3.4
   'object-literal-sort-keys': false,
+  'object-shorthand-properties-first': true, // 3.5
   'one-line': [
     true,
     'check-open-brace',
@@ -70,15 +74,22 @@ module.exports = {
     'check-whitespace'
   ],
   'ordered-imports': [false],
+  'prefer-const': true, // 2.1, 13.1
   'quotemark': [
     true,
     'single',
     'jsx-double'
   ],
-  'radix': true,
-  'semicolon': [false],
+  'radix': true, // 22.3
+  'semicolon': [true, 'never'], // 21.1 exception
   'switch-default': true,
-  'trailing-comma': [false],
+  'trailing-comma': [
+    true,
+    {
+      multiline: 'never', // 19.2 exception
+      singleline: 'never' // 19.2 exception
+    }
+  ],
   'triple-equals': [
     true,
     'allow-null-check'
