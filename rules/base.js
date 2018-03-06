@@ -18,7 +18,7 @@ module.exports = {
   'curly': false,
   'eofline': true,
   'forin': true,
-  'import-name': true, // 23.6
+  'import-name': false,
   'indent': [
     true,
     'spaces'
