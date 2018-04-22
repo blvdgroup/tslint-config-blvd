@@ -28,10 +28,10 @@ In your `tsconfig.json` file, extend `tslint-config-blvd`.
 
 ### React rules
 
-We've also included a separate config for React. In your `tsconfig.json` file, extend `tslint-config-blvd/react` alongside `tslint-config-blvd`.
+We've also included a separate config for React projects. In your `tsconfig.json` file, extend `tslint-config-blvd/react`.
 
 ```json
 {
-  "extends": ["tslint-config-blvd", "tslint-config-blvd/react"]
+  "extends": ["tslint-config-blvd/react"]
 }
 ```

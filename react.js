@@ -3,6 +3,6 @@
 const reactRules = require('./rules/react')
 
 module.exports = {
-  extends: ['tslint-react'],
+  extends: ['./index', 'tslint-react'],
   rules: reactRules
 }
