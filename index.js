@@ -9,6 +9,6 @@ module.exports = {
     getRuleDirectory('tslint-consistent-codestyle'),
     getRuleDirectory('tslint-microsoft-contrib')
   ],
-  extends: ['tslint:recommended'],
+  extends: ['tslint:recommended', 'tslint-config-prettier'],
   rules: Object.assign({}, base.rules)
 }
