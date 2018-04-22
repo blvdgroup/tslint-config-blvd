@@ -4,49 +4,25 @@
 
 module.exports = {
   rules: {
-    'align': [
-      true,
-      'parameters',
-      'arguments',
-      'statements'
-    ],
-    'ban': false,
+    align: [true, 'parameters', 'arguments', 'statements'],
+    ban: false,
     'class-name': true,
-    'comment-format': [
-      true,
-      'check-space'
-    ],
-    'curly': false,
-    'eofline': true,
-    'forin': true,
+    'comment-format': [true, 'check-space'],
+    curly: false,
+    eofline: true,
+    forin: true,
     'import-name': false,
-    'indent': [
-      true,
-      'spaces'
-    ],
+    indent: [true, 'spaces'],
     'linebreak-style': [true, 'LF'],
     'interface-name': [false],
     'jsdoc-format': true,
     'label-position': true,
-    'max-line-length': [
-      true,
-      140
-    ],
-    'member-ordering': [
-      true,
-      { 'order': 'statics-first' }
-    ],
+    'max-line-length': [true, 140],
+    'member-ordering': [true, { order: 'statics-first' }],
     'no-any': false,
     'no-arg': true,
     'no-bitwise': true,
-    'no-console': [
-      true,
-      'debug',
-      'info',
-      'time',
-      'timeEnd',
-      'trace'
-    ],
+    'no-console': [true, 'debug', 'info', 'time', 'timeEnd', 'trace'],
     'no-construct': true,
     'no-debugger': true,
     'no-shadowed-variable': true,
@@ -67,22 +43,12 @@ module.exports = {
     'object-literal-shorthand': true, // 3.3, 3.4
     'object-literal-sort-keys': false,
     'object-shorthand-properties-first': true, // 3.5
-    'one-line': [
-      true,
-      'check-open-brace',
-      'check-catch',
-      'check-else',
-      'check-whitespace'
-    ],
+    'one-line': [true, 'check-open-brace', 'check-catch', 'check-else', 'check-whitespace'],
     'ordered-imports': [false],
     'prefer-const': true, // 2.1, 13.1
-    'quotemark': [
-      true,
-      'single',
-      'jsx-double'
-    ],
-    'radix': true, // 22.3
-    'semicolon': [true, 'never'], // 21.1 exception
+    quotemark: [true, 'single', 'jsx-double'],
+    radix: true, // 22.3
+    semicolon: [true, 'never'], // 21.1 exception
     'switch-default': true,
     'trailing-comma': [
       true,
@@ -91,11 +57,8 @@ module.exports = {
         singleline: 'never' // 19.2 exception
       }
     ],
-    'triple-equals': [
-      true,
-      'allow-null-check'
-    ],
-    'typedef': [
+    'triple-equals': [true, 'allow-null-check'],
+    typedef: [
       false,
       'call-signature',
       'parameter',
@@ -103,19 +66,17 @@ module.exports = {
       'member-variable-declaration'
     ],
     'typedef-whitespace': [
-      true, {
+      true,
+      {
         'call-signature': 'nospace',
         'index-signature': 'nospace',
-        'parameter': 'nospace',
+        parameter: 'nospace',
         'property-declaration': 'nospace',
         'variable-declaration': 'nospace'
       }
     ],
-    'variable-name': [
-      true,
-      'ban-keywords'
-    ],
-    'whitespace': [
+    'variable-name': [true, 'ban-keywords'],
+    whitespace: [
       true,
       'check-branch',
       'check-decl',
