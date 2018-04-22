@@ -1,6 +1,6 @@
 'use strict'
 
-const { getRuleDirectory } = require('./lib/utils')
+const getRuleDirectory = require('./utils/getRuleDirectory')
 const base = require('./rules/base')
 
 module.exports = {

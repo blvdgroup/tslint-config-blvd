@@ -7,5 +7,7 @@ const path = require('path')
  * @param {string} name The module name.
  * @param {string} [directory] The path to the rules directory.
  */
-exports.getRuleDirectory = (name, directory) =>
+const getRuleDirectory = (name, directory) =>
   path.join(path.dirname(require.resolve(name)), directory || '')
+
+module.exports = getRuleDirectory
