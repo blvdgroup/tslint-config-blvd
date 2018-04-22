@@ -1,8 +1,7 @@
 'use strict'
 
 const { getRuleDirectory } = require('./lib/utils')
-
-const baseRules = require('./rules/base')
+const base = require('./rules/base')
 
 module.exports = {
   rulesDirectory: [
@@ -11,5 +10,5 @@ module.exports = {
     getRuleDirectory('tslint-microsoft-contrib')
   ],
   extends: ['tslint:recommended'],
-  rules: baseRules
+  rules: Object.assign({}, base.rules)
 }

@@ -1,8 +1,8 @@
 'use strict'
 
-const reactRules = require('./rules/react')
+const react = require('./rules/react')
 
 module.exports = {
   extends: ['./index', 'tslint-react'],
-  rules: reactRules
+  rules: Object.assign({}, react.rules)
 }
