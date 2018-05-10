@@ -38,6 +38,8 @@ module.exports = {
     'no-trailing-whitespace': true,
     'no-unexpected-multiline': true,
     'no-unused-expression': true,
+    'no-unused-variable': [true, 'react'],
+    'no-use-before-declare': true,
     'no-var-keyword': true, // 2.2
     'no-var-requires': false,
     'object-literal-shorthand': true, // 3.3, 3.4
