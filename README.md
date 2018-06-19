@@ -35,3 +35,34 @@ We've also included a separate config for React projects. In your `tsconfig.json
   "extends": ["tslint-config-blvd/react"]
 }
 ```
+
+### Prettier
+
+[Prettier](https://prettier.io/) is an automated code formatter for JavaScript, TypeScript, and other languages.
+
+This TSLint config works alongside Prettier, too. To use it, install Prettier as well as `tslint-config-prettier` to your project.
+
+```bash
+yarn add --dev prettier tslint-config-prettier
+```
+
+Create a `.prettierrc` file. Then add the following configs. This should make Prettier automatically format your code based
+on the blvd guidelines.
+
+```json
+{
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 140,
+  "singleQuote": true,
+  "trailingComma": "none"
+}
+```
+
+Then include `tslint-config-prettier` in your project. **IMPORTANT:** You must add `tslint-config-prettier` last in the `extends` array!
+
+```json
+{
+  "extends": ["tslint-config-blvd/react", "tslint-config-prettier"]
+}
+```
