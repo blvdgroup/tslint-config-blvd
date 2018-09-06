@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-blvd",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A TSLint config that conforms to the blvd TypeScript styleguide.",
   "main": "index.js",
   "files": [
